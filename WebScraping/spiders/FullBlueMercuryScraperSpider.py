@@ -38,7 +38,7 @@ def total_products_in_cat(url, page):
     return len(response.json()), response
 
 
-def scrape_products_from_response(response, url):
+def scrape_products_from_response(response, url, dir_name):
     headers = {
         'authority': 'bluemercury.com',
         'accept': '*/*',
@@ -57,28 +57,26 @@ def scrape_products_from_response(response, url):
     if response:
         prod_list = {}
         for prod_ in range(len(response.json())):
-            product = response.json()[prod_]
-            product_id = product['id']
-            product_name = product['title']
-
-            # offset = 0
-            # rc = 0
-            # params_raw = {
-            #     'Filter': f'ProductId:{product_id}',
-            #     'Sort': 'SubmissionTime:desc',
-            #     'Limit': '100',
-            #     'Offset': f'{offset}',
-            #     'Include': 'Products,Comments',
-            #     'Stats': 'Reviews',
-            #     'passkey': 'cahurH4YTLYFW0G5tMOsmjT7mau3DH0bwAqogWpgsB0SU',
-            #     'apiversion': '5.4',
-            # }
-            #
-            # reviews_raw = requests.get('https://api.bazaarvoice.com/data/reviews.json', params=params_raw)
-            # total_reviews = reviews_raw.json()['TotalResults']
+            product_info = response.json()[prod_]
+            product = {}
+            product['ProductID'] = product_id = product_info['id']
+            product['ProductName'] = product_name = product_info['title']
+            product['Product_URL'] = product_url = f'https://bluemercury.com{product_info["url"]}'
+            product['Price'] = product_info['price']
+            product['Min_Price'] = product_info['priceMin']
+            product['Max_Price'] = product_info['priceMax']
+            product['Vendor'] = product_info['vendor']
+            product['Is_Available'] = product_info['available']
+            product_img = ''
+            try:
+                product_img = product_info['images'][0]['src']
+                if 'http' not in product_img:
+                    product_img = f'https:{product_img}'
+            except:
+                pass
+            product['Image_URL'] = product_img
 
             offset = 0
-            # rc = 0
             params_raw = {
                 'Filter': f'ProductId:{product_id}',
                 'Sort': 'SubmissionTime:desc',
@@ -91,10 +89,28 @@ def scrape_products_from_response(response, url):
             }
 
             reviews_raw = requests.get('https://api.bazaarvoice.com/data/reviews.json', params=params_raw)
-            # total_reviews = reviews_raw.json()
-            product[f'{product_name}_reviews'] = reviews_raw.json()
+            total_reviews = reviews_raw.json()
+            num_of_rev = total_reviews['TotalResults']
+            review_dict = {'TotalReviews': total_reviews,
+                           'ReviewLanguage': total_reviews['Locale']}
+            if num_of_rev is not 0:
+                individual_reviews = total_reviews['Results']
+                ind_rev_dict = []
+                for ind in individual_reviews:
+                    rate = ind['Rating']
+                    range_ = ind['RatingRange']
+                    review_of_each = {'UserID': ind['Id'],
+                                      'SubmissionTime': ind['LastModificationTime'],
+                                      'UserLocation': ind['UserLocation'],
+                                      'Rating': f'{rate}/{range_}',
+                                      'ReviewText': ind['ReviewText'],
+                                      }
+                    ind_rev_dict.append(review_of_each)
+                review_dict['ProductReviews']: ind_rev_dict
 
-            prod_list[f'{product_name}'] = product
+            product[f'{product_name}_reviews'] = review_dict
+
+            prod_list[f'{dir_name}/{product_name}'] = product
 
         return prod_list
 
@@ -125,7 +141,7 @@ class BlueMercurySpider(scrapy.Spider):
 
         for page in range(1, 100):
             total_products, _response_ = total_products_in_cat(url, page)
-            scrapped_.append(scrape_products_from_response(_response_, url))
+            scrapped_.append(scrape_products_from_response(_response_, url, dir_name))
 
         with open('Blue_Mercury_bot.json', 'w') as outfile:
             json.dump(scrapped_, outfile)
