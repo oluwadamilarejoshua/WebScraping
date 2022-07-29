@@ -91,7 +91,7 @@ def scrape_products_from_response(response, url, dir_name):
             reviews_raw = requests.get('https://api.bazaarvoice.com/data/reviews.json', params=params_raw)
             total_reviews = reviews_raw.json()
             num_of_rev = total_reviews['TotalResults']
-            review_dict = {'TotalReviews': total_reviews,
+            review_dict = {'TotalReviews': num_of_rev,
                            'ReviewLanguage': total_reviews['Locale']}
             if num_of_rev is not 0:
                 individual_reviews = total_reviews['Results']
@@ -110,7 +110,7 @@ def scrape_products_from_response(response, url, dir_name):
 
             product[f'{product_name}_reviews'] = review_dict
 
-            prod_list[f'{dir_name}/{product_name}'] = product
+            prod_list[f'{dir_name}//{product_name}'] = product
 
         return prod_list
 
