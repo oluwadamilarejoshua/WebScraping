@@ -106,7 +106,7 @@ def scrape_products_from_response(response, url, dir_name):
                                       'ReviewText': ind['ReviewText'],
                                       }
                     ind_rev_dict.append(review_of_each)
-                review_dict['ProductReviews']: ind_rev_dict
+                review_dict['ProductReviews'] = ind_rev_dict
 
             product[f'{product_name}_reviews'] = review_dict
 
