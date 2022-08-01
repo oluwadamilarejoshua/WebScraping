@@ -1,11 +1,6 @@
 import scrapy
-import self as self
 import requests
-from time import sleep
-from random import randint
 import json
-import re
-import urllib.request
 
 
 def total_products_in_cat(url, page):
@@ -125,8 +120,6 @@ class BlueMercurySpider(scrapy.Spider):
         print('**** SCRAPING CATEGORY: ', url)
 
         dir_name = url.split('/')[-1]
-        # dir_name_to_save = pathlib.Path(dir_name)
-        # dir_name_to_save.mkdir(parents=True, exist_ok=True)
 
         scrapped_ = []
 
