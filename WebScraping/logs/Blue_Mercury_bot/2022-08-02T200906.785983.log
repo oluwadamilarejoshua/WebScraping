@@ -1,0 +1,23 @@
+2022-08-02 20:09:11 [scrapy] DEBUG: Redirecting (301) to <GET https://bluemercury.com/robots.txt> from <GET http://bluemercury.com/robots.txt>
+2022-08-02 20:09:12 [scrapy] DEBUG: Crawled (200) <GET https://bluemercury.com/robots.txt> (referer: None)
+2022-08-02 20:09:12 [scrapy] DEBUG: Redirecting (301) to <GET https://bluemercury.com/collections/hair> from <GET http://bluemercury.com/collections/hair>
+2022-08-02 20:09:12 [scrapy] DEBUG: Redirecting (301) to <GET https://bluemercury.com/collections/suncare> from <GET http://bluemercury.com/collections/suncare>
+2022-08-02 20:09:12 [scrapy] DEBUG: Redirecting (301) to <GET https://bluemercury.com/collections/bath-body> from <GET http://bluemercury.com/collections/bath-body>
+2022-08-02 20:09:12 [scrapy] DEBUG: Redirecting (301) to <GET https://bluemercury.com/collections/fragrances> from <GET http://bluemercury.com/collections/fragrances>
+2022-08-02 20:09:12 [scrapy] DEBUG: Redirecting (301) to <GET https://bluemercury.com/collections/tools-accessories> from <GET http://bluemercury.com/collections/tools-accessories>
+2022-08-02 20:09:12 [scrapy] DEBUG: Redirecting (301) to <GET https://bluemercury.com/collections/makeup> from <GET http://bluemercury.com/collections/makeup>
+2022-08-02 20:09:12 [scrapy] DEBUG: Redirecting (301) to <GET https://bluemercury.com/collections/for-men> from <GET http://bluemercury.com/collections/for-men>
+2022-08-02 20:09:12 [scrapy] DEBUG: Redirecting (301) to <GET https://bluemercury.com/collections/home> from <GET http://bluemercury.com/collections/home>
+2022-08-02 20:09:12 [scrapy] DEBUG: Redirecting (301) to <GET https://bluemercury.com/collections/gifts> from <GET http://bluemercury.com/collections/gifts>
+2022-08-02 20:09:12 [scrapy] DEBUG: Redirecting (301) to <GET https://bluemercury.com/collections/best-sellers> from <GET http://bluemercury.com/collections/best-sellers>
+2022-08-02 20:09:14 [scrapy] DEBUG: Crawled (200) <GET https://bluemercury.com/collections/suncare> (referer: None)
+2022-08-02 20:13:33 [scrapy] ERROR: Spider must return request, item, or None, got 'list' in <GET https://bluemercury.com/collections/suncare>
+2022-08-02 20:13:33 [scrapy] DEBUG: Retrying <GET https://bluemercury.com/collections/hair> (failed 1 times): User timeout caused connection failure: Getting https://bluemercury.com/collections/hair took longer than 180.0 seconds..
+2022-08-02 20:13:33 [scrapy] DEBUG: Retrying <GET https://bluemercury.com/collections/bath-body> (failed 1 times): User timeout caused connection failure: Getting https://bluemercury.com/collections/bath-body took longer than 180.0 seconds..
+2022-08-02 20:13:33 [scrapy] DEBUG: Retrying <GET https://bluemercury.com/collections/tools-accessories> (failed 1 times): User timeout caused connection failure: Getting https://bluemercury.com/collections/tools-accessories took longer than 180.0 seconds..
+2022-08-02 20:13:33 [scrapy] DEBUG: Retrying <GET https://bluemercury.com/collections/fragrances> (failed 1 times): User timeout caused connection failure: Getting https://bluemercury.com/collections/fragrances took longer than 180.0 seconds..
+2022-08-02 20:13:33 [scrapy] DEBUG: Retrying <GET https://bluemercury.com/collections/for-men> (failed 1 times): User timeout caused connection failure: Getting https://bluemercury.com/collections/for-men took longer than 180.0 seconds..
+2022-08-02 20:13:33 [scrapy] DEBUG: Retrying <GET https://bluemercury.com/collections/makeup> (failed 1 times): User timeout caused connection failure: Getting https://bluemercury.com/collections/makeup took longer than 180.0 seconds..
+2022-08-02 20:13:33 [scrapy] DEBUG: Retrying <GET https://bluemercury.com/collections/home> (failed 1 times): User timeout caused connection failure: Getting https://bluemercury.com/collections/home took longer than 180.0 seconds..
+2022-08-02 20:13:33 [scrapy] DEBUG: Retrying <GET https://bluemercury.com/collections/gifts> (failed 1 times): User timeout caused connection failure: Getting https://bluemercury.com/collections/gifts took longer than 180.0 seconds..
+2022-08-02 20:13:38 [scrapy] DEBUG: Crawled (200) <GET https://bluemercury.com/collections/home> (referer: None)

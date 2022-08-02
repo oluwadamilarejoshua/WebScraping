@@ -118,15 +118,15 @@ def scrape_products_from_response(response, url, dir_name):
 class BlueMercurySpider(scrapy.Spider):
     name = 'Blue_Mercury_bot'
     start_urls = ['http://bluemercury.com/collections/hair',
-                  'http://bluemercury.com/collections/makeup',
-                  'http://bluemercury.com/collections/bath-body',
-                  'http://bluemercury.com/collections/fragrances',
-                  'http://bluemercury.com/collections/tools-accessories',
-                  'http://bluemercury.com/collections/home',
-                  'http://bluemercury.com/collections/suncare',
-                  'http://bluemercury.com/collections/for-men',
-                  'http://bluemercury.com/collections/gifts',
-                  'http://bluemercury.com/collections/best-sellers'
+                  # 'http://bluemercury.com/collections/makeup',
+                  # 'http://bluemercury.com/collections/bath-body',
+                  # 'http://bluemercury.com/collections/fragrances',
+                  # 'http://bluemercury.com/collections/tools-accessories',
+                  # 'http://bluemercury.com/collections/home',
+                  # 'http://bluemercury.com/collections/suncare',
+                  # 'http://bluemercury.com/collections/for-men',
+                  # 'http://bluemercury.com/collections/gifts',
+                  # 'http://bluemercury.com/collections/best-sellers'
                   ]
 
     def parse(self, response):
@@ -137,11 +137,12 @@ class BlueMercurySpider(scrapy.Spider):
         # dir_name_to_save = pathlib.Path(dir_name)
         # dir_name_to_save.mkdir(parents=True, exist_ok=True)
 
-        scrapped_ = []
+        blue_Mercury = []
 
         for page in range(1, 100):
             total_products, _response_ = total_products_in_cat(url, page)
-            scrapped_.append(scrape_products_from_response(_response_, url, dir_name))
+            blue_Mercury.append(scrape_products_from_response(_response_, url, dir_name))
 
-        with open('Blue_Mercury_bot.json', 'w') as outfile:
-            json.dump(scrapped_, outfile)
+        # with open('Blue_Mercury_bot.json', 'w') as outfile:
+        #     json.dump(scrapped_, outfile)
+        yield blue_Mercury
