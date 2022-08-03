@@ -14,9 +14,9 @@ class WebscrapingPipeline:
     def __init__(self):
         pass
 
-    def create_connection(self):
-        self.conn = sqlite3.connect('WebScrapingABC.db')
-        self.curr = self.conn.cursor()
+    # def create_connection(self):
+    #     self.conn = sqlite3.connect('WebScrapingABC.db')
+    #     self.curr = self.conn.cursor()
 
     # def create_table(self):
     #     self.curr.execute("""create table blueMercuryProducts_tb(
