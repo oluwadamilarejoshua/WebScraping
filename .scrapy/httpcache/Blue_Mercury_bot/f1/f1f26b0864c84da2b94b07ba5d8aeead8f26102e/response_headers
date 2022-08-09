@@ -1,0 +1,25 @@
+Date: Mon, 08 Aug 2022 22:33:22 GMT
+Content-Type: text/html; charset=utf-8
+X-Sorting-Hat-Podid: 74
+X-Sorting-Hat-Shopid: 28301852747
+X-Storefront-Renderer-Rendered: 1
+Location: https://bluemercury.com/collections/for-men
+X-Frame-Options: DENY
+Content-Security-Policy: frame-ancestors 'none';
+X-Shopid: 28301852747
+X-Shardid: 74
+Vary: Accept
+Server-Timing: processing;dur=11, db;dur=4
+X-Shopify-Stage: production
+X-Dc: gcp-europe-southwest1,europe-west1,gcp-europe-west1
+X-Request-Id: 1a014342-69e5-459f-80d5-cd9b07c618f3
+X-Xss-Protection: 1; mode=block
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LYK%2FIaESji%2FFXtUJB3NF8mB7%2Fb4wJe3gwEtQBbt8BnWn6OeN%2BIsDuhYyGOzK%2F%2BMNcoa2EKlv%2B44pzBiuISV17%2BZS%2Bssum8A0n8UljPhZ2YHJI6aqRVTa5BuGybZsuGlfAw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 737bb6988cd0c4fc-LOS
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400

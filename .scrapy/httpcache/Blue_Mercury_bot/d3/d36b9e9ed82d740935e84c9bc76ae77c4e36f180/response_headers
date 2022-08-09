@@ -1,0 +1,25 @@
+Date: Mon, 08 Aug 2022 22:33:21 GMT
+Content-Type: text/html; charset=utf-8
+X-Sorting-Hat-Podid: 74
+X-Sorting-Hat-Shopid: 28301852747
+X-Storefront-Renderer-Rendered: 1
+Location: https://bluemercury.com/collections/hair
+X-Frame-Options: DENY
+Content-Security-Policy: frame-ancestors 'none';
+X-Shopid: 28301852747
+X-Shardid: 74
+Vary: Accept
+Server-Timing: processing;dur=10, db;dur=4
+X-Shopify-Stage: production
+X-Dc: gcp-europe-southwest1,europe-west1,gcp-europe-west1
+X-Request-Id: 8cc1dc15-f1e6-4de3-819b-3f41f40a9175
+X-Xss-Protection: 1; mode=block
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LWNti4pay02QQLR2mCAIocrrCozEXgtAtBazKbMvdMBdUEHH%2F6sjTJmNi1Yj0Kh%2BUpoT7cp9bZ8gtXxQcrDornQbXI48O8oCvVeR%2F7jc%2BgfWbGLfis9B2FDKyDTnbBHdfg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 737bb697795bc4ec-LOS
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400

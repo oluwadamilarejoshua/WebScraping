@@ -1,0 +1,25 @@
+Date: Mon, 08 Aug 2022 22:33:22 GMT
+Content-Type: text/html; charset=utf-8
+X-Sorting-Hat-Podid: 74
+X-Sorting-Hat-Shopid: 28301852747
+X-Storefront-Renderer-Rendered: 1
+Location: https://bluemercury.com/collections/best-sellers
+X-Frame-Options: DENY
+Content-Security-Policy: frame-ancestors 'none';
+X-Shopid: 28301852747
+X-Shardid: 74
+Vary: Accept
+Server-Timing: processing;dur=12, db;dur=4
+X-Shopify-Stage: production
+X-Dc: gcp-europe-southwest1,europe-west1,gcp-europe-west1
+X-Request-Id: a457f45e-dc61-45f0-88a7-ad8e8703215a
+X-Xss-Protection: 1; mode=block
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=42eI5Z7XVIsbucU6lwmC5f0FmmNuJJdqZIQ9TkhWj0tFz%2FPmw9TYG2ZJHqT3KKGnV7nOeK4tVO6ZyH0jqCqmCXd%2B0viZYDqBWW8%2BgHWX9bFrd%2FG9%2FdSwjDZ%2BGoCOYU5NLA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 737bb698eb6dc4ec-LOS
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400

@@ -1,0 +1,25 @@
+Date: Mon, 08 Aug 2022 22:33:22 GMT
+Content-Type: text/html; charset=utf-8
+X-Sorting-Hat-Podid: 74
+X-Sorting-Hat-Shopid: 28301852747
+X-Storefront-Renderer-Rendered: 1
+Location: https://bluemercury.com/collections/suncare
+X-Frame-Options: DENY
+Content-Security-Policy: frame-ancestors 'none';
+X-Shopid: 28301852747
+X-Shardid: 74
+Vary: Accept
+Server-Timing: processing;dur=10, db;dur=4
+X-Shopify-Stage: production
+X-Dc: gcp-europe-southwest1,europe-west1,gcp-europe-west1
+X-Request-Id: bca2d5b5-2356-43ff-9bbb-23c7629ca8f1
+X-Download-Options: noopen
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: none
+X-Content-Type-Options: nosniff
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BObwsGbhjvxOzc7MbdHWp6NPBJlRuP%2FIGICJBF0DM1Nq8uQUNNjAPWVEAMwjIrXQT4g1%2B%2FDZlfLeCRdD9QR35JtPpBt68y1gE8ZVGrKLkN6DlyF0g%2B6OOZzKcycQs4dQVQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 737bb6984a7fc4f8-LOS
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400

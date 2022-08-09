@@ -1,0 +1,5 @@
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+Accept-Encoding: gzip, deflate
+Cookie: secure_customer_sig=; localization=US; _y=d4493498-66df-49b4-b408-cada01e4e204; _s=5a7161ae-f779-477f-b144-77f862d514c5; _shopify_y=d4493498-66df-49b4-b408-cada01e4e204; _shopify_s=5a7161ae-f779-477f-b144-77f862d514c5; _tracking_consent=%7B%22lim%22%3A%5B%22CCPA_BLOCK_ALL%22%2C%22GDPR%22%5D%2C%22con%22%3A%7B%22GDPR%22%3A%22%22%7D%2C%22v%22%3A%222.0%22%2C%22reg%22%3A%22%22%7D; _shopify_tm=; _shopify_tw=; _shopify_m=persistent

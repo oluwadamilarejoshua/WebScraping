@@ -1,0 +1,41 @@
+Date: Mon, 08 Aug 2022 22:33:25 GMT
+Content-Type: text/html; charset=utf-8
+X-Sorting-Hat-Podid: 74
+X-Sorting-Hat-Shopid: 28301852747
+X-Storefront-Renderer-Rendered: 1
+Set-Cookie: secure_customer_sig=; path=/; expires=Tue, 08 Aug 2023 22:33:25 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: localization=US; path=/; expires=Tue, 08 Aug 2023 22:33:25 GMT; SameSite=Lax
+Set-Cookie: _orig_referrer=; Expires=Mon, 22-Aug-22 22:33:25 GMT; Domain=bluemercury.com; Path=/; HttpOnly; SameSite=Lax
+Set-Cookie: _landing_page=%2Fcollections%2Fhair; Expires=Mon, 22-Aug-22 22:33:25 GMT; Domain=bluemercury.com; Path=/; HttpOnly; SameSite=Lax
+Set-Cookie: _y=d4493498-66df-49b4-b408-cada01e4e204; Expires=Tue, 08-Aug-23 22:33:25 GMT; Domain=bluemercury.com; Path=/; SameSite=Lax
+Set-Cookie: _s=5a7161ae-f779-477f-b144-77f862d514c5; Expires=Mon, 08-Aug-22 23:03:25 GMT; Domain=bluemercury.com; Path=/; SameSite=Lax
+Set-Cookie: _shopify_y=d4493498-66df-49b4-b408-cada01e4e204; Expires=Tue, 08-Aug-23 22:33:25 GMT; Domain=bluemercury.com; Path=/; SameSite=Lax
+Set-Cookie: _shopify_s=5a7161ae-f779-477f-b144-77f862d514c5; Expires=Mon, 08-Aug-22 23:03:25 GMT; Domain=bluemercury.com; Path=/; SameSite=Lax
+Set-Cookie: _shopify_tm=; Expires=Mon, 08-Aug-22 23:03:25 GMT; Domain=bluemercury.com; Path=/; HttpOnly; SameSite=Lax
+Link: <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin
+Etag: cacheable:dca6bc829b82ee857a8c67f0cdc10fff
+X-Alternate-Cache-Key: cacheable:14d3b970d91d872cef3872c2f43ce801
+Content-Encoding: gzip
+X-Cache: miss
+X-Frame-Options: DENY
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Strict-Transport-Security: max-age=7889238
+X-Shopid: 28301852747
+X-Shardid: 74
+Vary: Accept
+Content-Language: en
+Server-Timing: processing;dur=3439, db;dur=668, parse;dur=8
+X-Shopify-Stage: production
+X-Dc: gcp-europe-southwest1,europe-west1,gcp-europe-west1
+X-Request-Id: 1d2a0864-4e97-4b48-9a58-8cb6d4651f8b
+X-Download-Options: noopen
+X-Xss-Protection: 1; mode=block
+X-Permitted-Cross-Domain-Policies: none
+X-Content-Type-Options: nosniff
+Cf-Cache-Status: DYNAMIC
+Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FS6YvqcLl0pXLXcYvMeWYWYQcOnwV9ZVjdw4fQFGBvbd0gcUQvZZ4qTlEYA47HvE1onogRCA%2ByDvQU%2F9TPpgMfn18hs0fLglK7cq%2BD51ijX%2BNTyBKhaszecImLQINSVrcw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 737bb699eccbc4f8-LOS
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400

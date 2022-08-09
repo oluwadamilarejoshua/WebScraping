@@ -1,0 +1,25 @@
+Date: Mon, 08 Aug 2022 22:33:22 GMT
+Content-Type: text/html; charset=utf-8
+X-Sorting-Hat-Podid: 74
+X-Sorting-Hat-Shopid: 28301852747
+X-Storefront-Renderer-Rendered: 1
+Location: https://bluemercury.com/collections/tools-accessories
+X-Frame-Options: DENY
+Content-Security-Policy: frame-ancestors 'none';
+X-Shopid: 28301852747
+X-Shardid: 74
+Vary: Accept
+Server-Timing: processing;dur=10, db;dur=4
+X-Shopify-Stage: production
+X-Dc: gcp-europe-southwest1,europe-west1,gcp-europe-west1
+X-Request-Id: cd79c769-ae56-4f0b-9912-13ff99180f33
+X-Xss-Protection: 1; mode=block
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lolUkPFQR07c2L9%2B3d38wgxhRCGdIUwXIeVNn5VIpzzWuPpj4sAjTUtPaV3Yt1IlWUiepsgf8HoWeJaVWuFQ3%2Fcu%2BU2lPTEkTWKTdxToRMGNE9LiGSdPF5MJRxzNzQhXLw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 737bb6987cb2c4fc-LOS
+Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
