@@ -25,7 +25,7 @@ USER_AGENT = 'Mozilla/5.0 (Linux; U; Android 4.0.3; de-ch; HTC Sensation Build/I
 #     ]
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 # PROXY_POOL_ENABLED = True
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32

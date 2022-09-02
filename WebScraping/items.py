@@ -41,6 +41,7 @@ class WebscrapingItem(scrapy.Item):
     Product_Description = scrapy.Field()
     Number_Of_Ratings = scrapy.Field()
     Reviews = scrapy.Field()
+    Reviews_URL = scrapy.Field()
 
 
 class DataHandler(scrapy.Item):
